@@ -1,0 +1,140 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddEmployeeForm renders correctly 1`] = `
+<div
+  className="AddEmployeeForm"
+>
+  <h3>
+    Add new employee
+  </h3>
+  <ForwardRef(InternalForm)
+    initialValues={Object {}}
+    labelCol={
+      Object {
+        "span": 8,
+      }
+    }
+    name="basic"
+    onFinish={[Function]}
+    wrapperCol={
+      Object {
+        "span": 8,
+      }
+    }
+  >
+    <FormItem
+      label="Name"
+      name="name"
+      rules={
+        Array [
+          Object {
+            "message": "Please input your name",
+            "required": true,
+          },
+        ]
+      }
+    >
+      <Input
+        placeholder="Employee full name"
+        type="text"
+      />
+    </FormItem>
+    <FormItem
+      label="Job Title"
+      name="jobTitle"
+      rules={
+        Array [
+          Object {
+            "message": "Please input your job title",
+            "required": true,
+          },
+        ]
+      }
+    >
+      <Input
+        placeholder="Job title"
+        type="text"
+      />
+    </FormItem>
+    <FormItem
+      label="Gender"
+      name="gender"
+      rules={
+        Array [
+          Object {
+            "message": "Please select gender",
+            "required": true,
+          },
+        ]
+      }
+    >
+      <Select
+        allowClear={true}
+        bordered={true}
+        choiceTransitionName="zoom"
+        placeholder="Select a gender"
+        transitionName="slide-up"
+      >
+        <Option
+          value="Male"
+        >
+          male
+        </Option>
+        <Option
+          value="Female"
+        >
+          female
+        </Option>
+      </Select>
+    </FormItem>
+    <FormItem
+      label="Tenure"
+      name="tenure"
+      rules={
+        Array [
+          Object {
+            "max": 99,
+            "message": "Please select tenure",
+            "min": 1,
+            "required": true,
+            "type": "number",
+          },
+        ]
+      }
+    >
+      <InputNumber
+        placeholder="Tenure"
+        step={1}
+      />
+    </FormItem>
+    <FormItem
+      wrapperCol={
+        Object {
+          "offset": 8,
+          "span": 8,
+        }
+      }
+    >
+      <Button
+        block={false}
+        ghost={false}
+        htmlType="button"
+        loading={false}
+        onClick={[Function]}
+      >
+        Cancel
+      </Button>
+      <Button
+        block={false}
+        data-testid="submit-button"
+        ghost={false}
+        htmlType="submit"
+        loading={false}
+        type="primary"
+      >
+        Submit
+      </Button>
+    </FormItem>
+  </ForwardRef(InternalForm)>
+</div>
+`;

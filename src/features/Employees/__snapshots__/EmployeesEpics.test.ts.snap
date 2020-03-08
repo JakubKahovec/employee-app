@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`employees epics should generate a fail action when load employees api call fails 1`] = `
+Array [
+  Object {
+    "payload": "Failed to call api",
+    "type": "employees/LOAD_EMPLOYEES_FAILURE",
+  },
+]
+`;
+
+exports[`employees epics should generate a fail action when save employee api call fails 1`] = `
+Array [
+  Object {
+    "payload": "Failed to call api",
+    "type": "employees/SAVE_EMPLOYEES_FAILURE",
+  },
+]
+`;
+
+exports[`employees epics should generate a success action and a redirect action when save employee api call is successful 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "gender": "Male",
+      "jobTitle": "CEO",
+      "name": "John Green",
+      "tenure": "8",
+    },
+    "type": "employees/SAVE_EMPLOYEES_SUCCESS",
+  },
+  Object {
+    "payload": Object {
+      "args": Array [
+        "/dashboard",
+      ],
+      "method": "push",
+    },
+    "type": "@@router/CALL_HISTORY_METHOD",
+  },
+]
+`;
+
+exports[`employees epics should generate a success action when load employees api call is successful 1`] = `
+Array [
+  Object {
+    "meta": 0,
+    "payload": Array [
+      Object {
+        "gender": "Male",
+        "jobTitle": "CEO",
+        "name": "John Green",
+        "tenure": "8",
+      },
+    ],
+    "type": "employees/LOAD_EMPLOYEES_SUCCESS",
+  },
+]
+`;

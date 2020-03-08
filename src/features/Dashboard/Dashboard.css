@@ -1,0 +1,15 @@
+.Dashboard {
+  display: grid;
+  gap: 10px;
+  padding: 20px;
+  grid-template-rows: 30px 500px 400px;
+}
+
+.Dashboard-add-new-employee-button {
+  float: right;
+}
+
+.Dashboard-charts {
+  display: grid;
+  grid-row: 1;
+}

@@ -1,0 +1,7 @@
+.EmployeesByGender {
+  text-align: left;
+}
+
+.EmployeesByGender > h3 {
+  margin-left: 120px;
+}

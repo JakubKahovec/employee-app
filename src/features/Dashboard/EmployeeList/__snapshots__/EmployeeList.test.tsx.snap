@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly EmployeeList 1`] = `
+<Table
+  className="Employee-list-table-striped-rows"
+  columns={
+    Array [
+      Object {
+        "dataIndex": "name",
+        "key": "name",
+        "sorter": [Function],
+        "title": "Name",
+        "width": 200,
+      },
+      Object {
+        "dataIndex": "jobTitle",
+        "key": "jobTitle",
+        "sorter": [Function],
+        "title": "Job Title",
+        "width": 200,
+      },
+      Object {
+        "dataIndex": "tenure",
+        "key": "tenure",
+        "sorter": [Function],
+        "title": "Tenure",
+        "width": 50,
+      },
+      Object {
+        "dataIndex": "gender",
+        "key": "gender",
+        "render": [Function],
+        "sorter": [Function],
+        "title": "Gender",
+        "width": 200,
+      },
+    ]
+  }
+  dataSource={
+    Array [
+      Object {
+        "gender": "Male",
+        "jobTitle": "CEO",
+        "name": "John Green",
+        "tenure": "8",
+      },
+      Object {
+        "gender": "Female",
+        "jobTitle": "CTO",
+        "name": "Sheila Pink",
+        "tenure": "7",
+      },
+      Object {
+        "gender": "Female",
+        "jobTitle": "CFO",
+        "name": "Ema Shelton",
+        "tenure": "6",
+      },
+    ]
+  }
+  footer={[Function]}
+  loading={true}
+  pagination={false}
+  rowKey={[Function]}
+  scroll={
+    Object {
+      "y": 400,
+    }
+  }
+  size="small"
+/>
+`;

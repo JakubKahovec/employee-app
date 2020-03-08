@@ -1,0 +1,7 @@
+.AddEmployeeForm {
+  display: grid;
+  grid-row: auto;
+  padding: 20px;
+  grid-auto-columns: auto;
+}
+

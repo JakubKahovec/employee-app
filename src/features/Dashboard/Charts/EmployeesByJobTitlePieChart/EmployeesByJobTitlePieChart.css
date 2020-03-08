@@ -1,0 +1,9 @@
+.EmployeesByJobTitle {
+  text-align: left;
+  float: left;
+  margin-left: 100px;
+}
+
+.EmployeesByJobTitle > h3 {
+  margin-left: 120px;
+}
